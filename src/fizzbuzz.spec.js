@@ -5,3 +5,6 @@ describe("Fizzbuzz", () => {
         expect(generarFizzbuzz(1)).toEqual("1");
     });
 });
+it("debería generar el mismo número para otro numero que no tiene reglas como para el 2", () => {
+    expect(generarFizzbuzz(1)).toEqual("1");
+});
