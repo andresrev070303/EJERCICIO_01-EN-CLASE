@@ -14,3 +14,6 @@ it("debería generar el fizz para un numero que sigue esa regla como para el 3",
 it("debería generar el bbuzz para un numero que sigue esa regla como para el 5", () => {
     expect(generarFizzbuzz(5)).toEqual("Buzz");
 });
+it("debería generar el FizzBuuzz para un numero que sigue esa regla como para el 15", () => {
+    expect(generarFizzbuzz(15)).toEqual("FizzBuzz");
+});
